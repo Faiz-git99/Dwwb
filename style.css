@@ -1,0 +1,23 @@
+h1{ color: crimson; text-align: center; 
+    margin: 0%;
+    text-shadow: 3px 3px 1px black ;
+    color: #00539f;
+    padding:20px 0; }
+
+p{color: black;text-align: justify;}
+
+h3{text-align: center;color: chocolate;}
+
+a{color: rgb(171, 148, 15);}
+
+h2{color: aqua;}
+
+ul{text-align: justify;color: chartreuse;}
+
+body{background-color: white;}
+
+img{display: block;
+    margin:auto ;}
+    ul>li{text-align: left;}
+
+    ol{color: blueviolet;}
