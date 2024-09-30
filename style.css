@@ -21,11 +21,13 @@ img{display: block;
     ul>li{text-align: left;}
 
     ol{color: blueviolet;}
-
-.jackpot{color: rgb(118, 101, 36);}
-
+/* les gens malheureuses /*
+.jackpot{color: rgb(118, 101, 36);
+font-family: 'Trebuchet MS', 'verdana' 'sans-serif';}
+/* les images rocambolesques /*
 .photo{text-align: justify;
     color: greenyellow;
     font-size: large;
 font-family: Arial, Helvetica, sans-serif;}
-    p{color: darkslategrey;}
+
+ p{color: darkslategrey;}
