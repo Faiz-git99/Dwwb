@@ -11,15 +11,15 @@ font-family :Verdana, Geneva, Tahoma, sans-serif;}
 
 .portfolio{font-size: 50px;}
 
-.Paragraphe{
-border-right: 1px  #8e86b5 solid;
-border-bottom: 1px #8e86b5 solid;
-border-left: 3px orange solid;
-border-top: 3px darkblue solid;
+.Paragraphe{padding: 12px;
+border-right: 15px  #8e86b5 solid;
+border-bottom: 19px #8e86b5 solid;
+border-left: 20px orange solid;
+border-top: 20px darkblue solid;
 }
 
-.Compétences{
-border-right: 1px #8e86b5 solid;
-border-bottom: 1px #8e86b5 solid;
-border-left: 5px red dashed;
-border-top: 5px brown dotted;}
+.Compétences{padding: 5px;
+border-right: 15px #8e86b5 solid;
+border-bottom: 15px #8e86b5 solid;
+border-left: 12px red double;
+border-top: 15px brown double;}
