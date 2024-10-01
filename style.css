@@ -1,6 +1,10 @@
 h1{ font-size: 3,5em;
 color: #a5b4fc;
-font-family: 'Montserrat';}
+font-family: 'Montserrat';
+border-width: 5px;
+border-color: aqua;
+text-align: center;
+text-decoration :underline;}
 
 p{font-size: 1,1em;
 font-family: 'Manrope';}
@@ -34,8 +38,6 @@ font-family: 'Trebuchet MS', 'verdana' 'sans-serif';}
     font-size: large;
 font-family: verdana;}
 
- h4{font-family:'changa';color: turquoise;
- font-weight :bolder;
-font-style: italic;
-text-decoration: underline;
-font-optical-sizing: auto;}
+ h4{font-family: 'Montserra''sans serif';
+    text-decoration: underline;
+}
