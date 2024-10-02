@@ -1,21 +1,22 @@
-h1{font-size: 20px;
-font-family: 'Montserra''sans serif';
-text-align: center;
-border: solid gray;}
+h1{font-size: 20px; /* modifie la taille du texte*/
+font-family: 'Montserra''sans serif'; /* modifie la police */
+text-align: center; /* alignement de texte au centre */
+border: solid gray;} /* insère des bordures*/
 
 h2{font-size: 15px;
 font-weight: bolder;
-font-family :Verdana, Geneva, Tahoma, sans-serif;}
+font-family :Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;}
 
 .monprojet{font-size: 50px;}
 
 .portfolio{font-size: 50px;}
 
 .Paragraphe{padding: 12px;
-border-right: 15px  #8e86b5 solid;
-border-bottom: 19px #8e86b5 solid;
-border-left: 20px orange solid;
-border-top: 20px darkblue solid;
+border-right: 15px  #8e86b5 solid; /* bordure à droite */
+border-bottom: 19px #8e86b5 solid; /* bordure en bas */
+border-left: 20px orange solid; /* bordure à gauche */
+border-top: 20px darkblue solid; /* bordure en haut */
 }
 
 .Compétences{padding: 5px;
