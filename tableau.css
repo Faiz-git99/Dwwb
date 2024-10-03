@@ -4,13 +4,10 @@ border: 1px solid black;
 width: 100%;
 }
 
-table{ border-collapse: collapse
-    
-    ;}
-
-
+table, th, td {border: 1px solid;
+      border-collapse: collapse;
 }
 
+th{background-color: coral;}
 
 
-}
