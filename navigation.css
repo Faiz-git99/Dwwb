@@ -7,7 +7,7 @@ font-weight: bold; /* modifie le texte en gras */
 .recherche li{display: inline-block; /* affiche les mots en ligne */
     padding-inline: 100px;} /* distance des mots en ligne */
 
-    a{color :darkblue;
+    a{color :darkblue; 
     text-decoration :underline; /* enlève le soulignement */
 
 } 
