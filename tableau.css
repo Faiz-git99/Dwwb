@@ -1,13 +1,21 @@
-h2{text-align:center;
-background-color: aqua;
-border: 1px solid black;
-width: 100%;
+h2{text-align:center; /* position du texte */
+text-decoration: underline; /* permet de souligner le texte */
 }
 
-table, th, td {border: 1px solid;
+table, th, td {
+      border: 3px solid;
       border-collapse: collapse;
 }
 
-th{background-color: coral;}
+th{
+      background-color: coral;
+      color: black;
+}
 
+td{
+      background-color: antiquewhite;
+      color: black;
+      text-align: center;
+      font-size: 20px;
+}
 
