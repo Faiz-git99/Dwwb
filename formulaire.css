@@ -1,5 +1,7 @@
 fieldset{
-    background-color: blueviolet; 
+    background-color: blueviolet;
+    padding: 15px;
+
 }
 
 legend{
