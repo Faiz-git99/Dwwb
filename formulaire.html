@@ -10,31 +10,27 @@
 <body>
   <form>
 <p>Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :</p>
-    <input type="radio" id="age" name="age">
+    <input type="radio" id="15ans" name="age">
     <label for="moins de 15 ans ">Moins de 15 ans</label> <br>
-    <input type="radio" id="age" name="age">
+    <input type="radio" id="12-25ans" name="age">
     <label for="15-25">15-25 ans</label> <br>
-    <input type="radio" id="age" name="age">
+    <input type="radio" id="25-40ans" name="age">
     <label for="25-40">25-40 ans</label> <br>
-    <input type="radio" id="age" name="age">
+    <input type="radio" id="40ans+" name="age">
     <label for="40 +">Plus de 40 ans</label>
 </form>
 
 <form>
 <p>Sur quel continent habitez-vous ?</p>
-    <input type="radio" id="continent" name="continent">
+    <input type="radio" id="europe" name="continent">
     <label for="europe">Europe</label> <br>
-
-    <input type="radio" id="continent" name="continent">
+    <input type="radio" id="afrique" name="continent">
     <label for="afrique">Afrique</label> <br>
-
-    <input type="radio" id="continent" name="continent"
+    <input type="radio" id="asie" name="continent"
     <label for="asie">Asie</label> <br>
-
-    <input type="radio" id="continent" name="continent"
+    <input type="radio" id="amerique" name="continent"
     <label for="amerique">Amérique</label> <br>
-
-    <input type="radio" id="continent" name="continent"
+    <input type="radio" id="oceanie" name="continent"
     <label for="oceanie">Océanie</label>
 </form>
 <br>
@@ -44,38 +40,36 @@
 
 <div>
     <label for="nom">Quel est votre nom ?</label>
-    <input type="text" id="renseignement" name="renseignement">
+    <input type="text" id="nom" name="nom">
 
  
     <label for="prénom">Quel est votre prénom</label>
-    <input type="text" id="renseignement" name="renseignement">
+    <input type="text" id="prenom" name="prenom">
  
 
     <label for="mail">Quel est votre e-mail ?</label>
-    <input type="text">
-</div>    
-
+    <input type="mail" name="email">
+</div>
 </fieldset>
 <br>
 <br>
 
 <fieldset>
-<legend>Votre souhait</legend>
-
-<label for="souhait">Faites un souhait que vous voudriez exaucé :</label>
-<input type="radio" name="souhait">
-<label for="riche">Être riche</label>
-<input type="radio" name="souhait">
-<label for="celèbre">Être célèbre</label>
-<input type="radio" name="souhait">
-<label for="intelligent">Être <strong>encore</strong> plus intelligent</label>
-<input type="radio" name="souhait">
-<label for="autre">Autre...</label>
-<input type="radio" name="souhait">
+    <legend>Votre souhait</legend>
+    <label for="souhait">Faites un souhait que vous voudriez exaucé : </label>
+    <input type="radio" name="souhait">
+    <label for="riche">Être riche</label>
+    <input type="radio" name="souhait">
+    <label for="celèbre">Être célèbre</label>
+    <input type="radio" name="souhait">
+    <label for="intelligent">Être <strong>encore</strong> plus intelligent</label>
+    <input type="radio" name="souhait">
+    <label for="autre">Autre...</label>
+    <input type="radio" name="souhait">
 <br>
 <br>
-<label for="Autre">Si "Autre" veuillez préciser :</label>
-<textarea name="Autre" id="autre"></textarea>
+    <label for="Autre">Si "Autre" veuillez préciser :</label>
+    <textarea name="Autre" rows="5" cols="55"  id="autre"></textarea>
 </fieldset>
 
 </body>
