@@ -11,7 +11,7 @@
   <form>
 
 <p>Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :</p>
-    <input type="radio" id="15ans" name="age">
+    <input type="radio" id="15ans" name="age"> <!--l'attribut name ici permet de regrouper toute la liste sur le formulaire-->
     <label for="moins de 15 ans ">Moins de 15 ans</label> <br>
     <input type="radio" id="12-25ans" name="age">
     <label for="15-25">15-25 ans</label> <br>
@@ -43,13 +43,13 @@
 <legend>Vos coordonnées</legend> <!--la balise fieldset permet d'insérer une légende -->
 
     <label for="nom">Quel est votre nom ?</label>
-    <input type="text" id="nom" name="nom">
+    <input type="text" id="nom" name="nom"> 
 
     <label for="prénom">Quel est votre prénom</label>
     <input type="text" id="prenom" name="prenom">
  
     <label for="mail">Quel est votre e-mail ?</label>
-    <input type="mail" name="email">
+    <input type="mail" name="email" required/> <!--le zone de texte est de nature mail et le champs est obligatoire-->
 
 </fieldset>
 <br>
@@ -71,7 +71,7 @@
 <br>
 <br>
     <label for="Autre">Si "Autre" veuillez préciser :</label>
-    <textarea name="Autre" rows="5" cols="55"  id="autre"></textarea>  <!--permet d'aggrandir la zone de texte avec rows pour la largeur et le cols pour la longueurS-->
+    <textarea name="Autre" rows="5" cols="55"  id="autre"></textarea>  <!--permet d'aggrandir la zone de texte avec rows pour la largeur et le cols pour la longueur-->
 </fieldset>
 
 </body>
